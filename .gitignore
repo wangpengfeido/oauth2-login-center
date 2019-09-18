@@ -1,3 +1,7 @@
-node_modules/
-.vscode
 .idea
+.vscode
+
+node_modules
+
+config/mysql.json
+

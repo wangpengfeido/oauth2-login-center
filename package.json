@@ -1,0 +1,26 @@
+{
+  "name": "oauth2-login-center",
+  "version": "1.0.0",
+  "description": "王彭飞的登录中心",
+  "main": "index.js",
+  "scripts": {
+    "run": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangpengfeido/oauth2-login-center.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/wangpengfeido/oauth2-login-center/issues"
+  },
+  "homepage": "https://github.com/wangpengfeido/oauth2-login-center#readme",
+  "dependencies": {
+    "@koa/router": "^8.0.1",
+    "jsonfile": "^5.0.0",
+    "koa": "^2.8.1",
+    "mysql": "^2.17.1"
+  }
+}
