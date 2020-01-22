@@ -1,9 +1,9 @@
 const Router = require('@koa/router');
 
-const { routerDeveloper } = require('./router-developer.js');
+const { routerUser } = require('./router-user.js');
 
 const router = new Router();
 
-routerDeveloper(router);
+routerUser(router);
 
 module.exports = router;
